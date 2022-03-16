@@ -66,4 +66,3 @@ https://openaccess.thecvf.com/content/ICCV2021/papers/Yue_Transporting_Causal_Me
 ### Learning Causal Representation for Training Cross-Domain Pose Estimator via Generative Interventions
 
 https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Learning_Causal_Representation_for_Training_Cross-Domain_Pose_Estimator_via_Generative_ICCV_2021_paper.html
-
