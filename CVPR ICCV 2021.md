@@ -1,3 +1,5 @@
+## CVPR 2021
+
 ### Causal Attention for Vision-Language Tasks
 
 https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Causal_Attention_for_Vision-Language_Tasks_CVPR_2021_paper.pdf
@@ -41,4 +43,27 @@ https://openaccess.thecvf.com/content/CVPR2021/papers/Niu_Counterfactual_VQA_A_C
 compute the total indirect effect as subtraction of total effect and natural direct effect (only given language or video)
 
 ![1647259795621](https://github.com/ZigeW/Causality-in-CV/raw/main/images/1647259795621.png)
+
+
+
+## ICCV 2021
+
+### Causal Attention for Unbiased Visual Recognition
+
+https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Causal_Attention_for_Unbiased_Visual_Recognition_ICCV_2021_paper.pdf
+
+propose a causal attention module (CaaM) that self-annotates the confounders by data partition, and overcome the over-adjustment in OOD settings by disentangling the confounder and mediator using complementary attention modules trained in adversarial style
+
+![1647415964554](https://github.com/ZigeW/Causality-in-CV/raw/main/images/1647415964554.png)
+
+- causal intervention by data partition - partition the training data into splits, each of which represents a confounder stratum
+- Mini- and Maxi-game for better disentanglement of mediator and confounder
+
+### Transporting Causal Mechanisms for Unsupervised Domain Adaptation
+
+https://openaccess.thecvf.com/content/ICCV2021/papers/Yue_Transporting_Causal_Mechanisms_for_Unsupervised_Domain_Adaptation_ICCV_2021_paper.pdf
+
+### Learning Causal Representation for Training Cross-Domain Pose Estimator via Generative Interventions
+
+https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Learning_Causal_Representation_for_Training_Cross-Domain_Pose_Estimator_via_Generative_ICCV_2021_paper.html
 
