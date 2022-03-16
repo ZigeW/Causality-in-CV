@@ -16,7 +16,7 @@ propose Causal Attention (CATT) based on front-door adjustment principle that do
 
 - front-door adjustment - intervene on Z
   $$
-  P(Y|do(X))=\underbrace{\sum_{z}P(Z=z|X)}_\text{IS-sampling} \underbrace{\sum_{x}P(X=x)}_\text{CS-sampling}P(Y|Z=z,X=x)
+  P(Y|do(X))=\underbrace{\sum_{z}P(Z=z|X)}_ \text{IS-sampling} \underbrace{\sum_{x}P(X=x)}_\text{CS-sampling}P(Y|Z=z,X=x)
   $$
   CS-sampling - Cross-Sample sampling since it comes from other samples (obtained by clustering embedded features into dictionaries)
 
