@@ -10,13 +10,13 @@ propose Causal Attention (CATT) based on front-door adjustment principle that do
 
 - attention mechanism as a front-door casual graph
   $$
-  P(Y|X)=\underbrace{\sum_{z}P(Z=z|X)}_{IS-sampling}P(Y|Z=z)
+  P(Y|X)=\underbrace{\sum_{z}P(Z=z|X)}_\text{IS-sampling}P(Y|Z=z)
   $$
   IS-sampling - In-Sample sampling since z comes from the current input x
 
 - front-door adjustment - intervene on Z
   $$
-  P(Y|do(X))=\underbrace{\sum_{z}P(Z=z|X)}_{IS-sampling} \underbrace{\sum_{x}P(X=x)}_{CS-sampling}P(Y|Z=z,X=x)
+  P(Y|do(X))=\underbrace{\sum_{z}P(Z=z|X)}_\text{IS-sampling} \underbrace{\sum_{x}P(X=x)}_\text{CS-sampling}P(Y|Z=z,X=x)
   $$
   CS-sampling - Cross-Sample sampling since it comes from other samples (obtained by clustering embedded features into dictionaries)
 
