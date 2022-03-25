@@ -10,7 +10,7 @@ $$
 
 strong ingorability $\Rightarrow$ ITE function to be identifiable
 $$
-\forall x, (Y_1,Y_0) \bot t|x, \text{ and } 0<p(t=1|x)<1
+\forall x, (Y_1,Y_0) \bot\bot t|x, \text{ and } 0<p(t=1|x)<1
 $$
 validity of strong ignorability cannot be assessed from data, and must be determined by domain knowledge and understanding of the causal relationships between var.
 
@@ -33,5 +33,9 @@ use two *Integral Probability Metric (IPM) measure* - *Maximum Mean Discrepancy 
 ![1648196397240](https://github.com/ZigeW/Causality-in-CV/raw/main/images/1648196397240.png)
 
 - predicting ITE from *observational data*, under the assumption of *strong ignorability* $\simeq$*no-hidden confounding*
-- generalization-error bound - expected ITE estimation error of a representation is bounded by the standard generalization-error of that representation + the distance between the treated and control distributions induced by the representation (error of learning $Y_1$ and $Y_0$ + IPM term, when $t \bot x​$ , IPM is 0)
+
+- generalization-error bound - expected ITE estimation error of a representation is bounded by the standard generalization-error of that representation + the distance between the treated and control distributions induced by the representation
+
+   (error of learning $Y_1$ and $Y_0$ + IPM term, when $t \bot\bot x$ , IPM is 0)
+
 - bound $\rightarrow$  algo. learn a "balanced" representation such that the induced treated and control distribution look similar
